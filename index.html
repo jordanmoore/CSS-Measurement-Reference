@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Measurement Reference &mdash; A page to show how your device renders different CSS measurements</title>
+  <meta name="description" content="A page to show how your device renders different CSS measurements">
+  <meta name="author" content="Jordan Moore">
+
+  <!-- /ht Andy Clarke - http://front.ie/lkCwyf -->
+  <meta http-equiv="cleartype" content="on">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+body {
+  font-family: "Lucida Grande", "Helvetica Neue", Arial, sans-serif;
+  background: #f1f1f1;
+}
+
+ul {
+  list-style:none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+ul li div {
+  background: #ccc;
+  border:1px solid #999;
+  border-left:none;
+  border-right:none;
+}
+
+ul li span {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  position: absolute;
+  font-size:11px;
+  text-transform: uppercase;
+  padding: 3px 6px;
+  color: #fff;
+  right: 0;
+  background: #323232;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.container {
+  max-width: 30em;
+  margin: 0 auto;
+}
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    
+    <h1>CSS Measurement Reference</h1>
+
+    <hr>
+
+    <h2>Font Sizes</h2>
+    <ul class="list-font-sizes">
+      <li style="font-size:16px">16px <span>16 pixels</span></li>
+      <li style="font-size:1em">1em <span>1 em</span></li>
+      <li style="font-size:1rem">1rem <span>1 rem</span></li>
+      <li style="font-size:2ex">2ex <span>2 ex (based on font's x-height)</span></li>
+      <li style="font-size:16pt">16pt <span>16 points</span></li>
+      <li style="font-size:1pc">1pc <span>1 pica</span></li>
+      <li style="font-size:5mm">5mm <span>5 milimetres</span></li>
+      <li style="font-size:1cm">1cm <span>1 centimetre</span></li>
+      <li style="font-size:1in">1in <span>1 inch</span></li>
+    </ul>
+
+    <hr>
+
+    <h2>Heights</h2>
+    <ul class="list-heights">
+      <li>
+        <div style="height:16px"><span>16 pixels</span></div>
+      </li>
+      <li>
+        <div style="height:1em"><span>1 em</span></div>
+      </li>
+      <li>
+        <div style="height:1rem"><span>1 rem</span></div>
+      </li>
+      <li>
+        <div style="height:2ex"><span>2 ex (based on font's x-height)</span></div>
+      </li>
+      <li>
+        <div style="height:16pt"><span>16 points</span></div>
+      </li>
+      <li>
+        <div style="height:1pc"><span>1 pica</span></div>
+      </li>
+      <li>
+        <div style="height:5mm"><span>5 milimetres</span></div>
+      </li>
+      <li>
+        <div style="height:1cm"><span>1 centimetre</span></div>
+      </li>
+      <li>
+        <div style="height:1in"><span>1 inch</span></div>
+      </li>
+    </ul>
+
+    <hr>
+
+    <p>A plain page using your browser default measurements to show how different CSS measurements render on your device. By <a href="http://twitter.com/jordanmoore">Jordan Moore</a></p>
+
+  </div>
+
+</body>
+</html>
